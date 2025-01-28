@@ -17,12 +17,16 @@
 
 /* titolo */
 h1 {
-  display: inline-block;
   height: 60px;
   font-size: 40px;
   position: absolute;
   /*allineamento titolo al logo. più o meno funziona, sicuramente non è la soluzione giusta. TORNA PIù TARDI */
   top: 9px;
+}
+
+/* spaziatura sotto il titolo */
+header {
+  margin-bottom: 70px;
 }
 
 /* centratura parte centrale */
@@ -33,7 +37,6 @@ main {
 /* si applica a tutti i tasti */
 .tasto {
   text-align: center;
-  display: inline-block;
   height: 25px;
 }
 
@@ -54,4 +57,51 @@ main {
   width: 85px;
   border-color: #c4cbd0;
   color: #c4cbd0;
+}
+
+/* spaziatura sotto i 2 tasti */
+.marginesotto1 {
+  margin-bottom: 30px;
+}
+
+.inlineblock {
+  display: inline-block;
+}
+
+.check1 {
+  width: 17px;
+  height: 17px;
+  color: #2cc6ab;
+  border: #2cc6ab solid 1px;
+  border-radius: 50%;
+  position: relative;
+  top: 6px;
+}
+
+.check2 {
+  width: 17px;
+  height: 17px;
+  color: #ff4141;
+  border: #ff4141 solid 1px;
+  border-radius: 50%;
+  top: 6px;
+}
+
+.span {
+  position: relative;
+  top: -3px;
+}
+
+.tasti {
+  height: 22px;
+  color: white;
+  border-radius: 8px;
+}
+
+.spaziotesto {
+  margin: 10px;
+}
+
+.blu {
+  background-color: #14aaf5;
 }
