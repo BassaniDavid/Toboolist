@@ -84,6 +84,7 @@ main {
   color: #ff4141;
   border: #ff4141 solid 1px;
   border-radius: 50%;
+  position: relative;
   top: 6px;
 }
 
