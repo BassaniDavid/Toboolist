@@ -15,6 +15,7 @@
 
 }
 
+/* titolo */
 h1 {
   display: inline-block;
   height: 60px;
@@ -24,3 +25,33 @@ h1 {
   top: 9px;
 }
 
+/* centratura parte centrale */
+main {
+  text-align: center;
+}
+
+/* si applica a tutti i tasti */
+.tasto {
+  text-align: center;
+  display: inline-block;
+  height: 25px;
+}
+
+/* si applica solo ai tasti superiori */
+.add {
+  border: 1px; 
+  border-radius: 5px;
+}
+
+.task {
+  width: 70px;
+  background-color: #14aaf5;
+  color: white;
+}
+
+.section {
+  border-style: solid;;
+  width: 85px;
+  border-color: #c4cbd0;
+  color: #c4cbd0;
+}
