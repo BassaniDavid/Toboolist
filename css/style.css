@@ -31,7 +31,7 @@ header {
 
 /* centratura parte centrale */
 main {
-  text-align: center;
+margin: 0% 0 50px 40%;
 }
 
 /* si applica a tutti i tasti */
@@ -63,6 +63,15 @@ main {
 .marginesotto1 {
   margin-bottom: 30px;
 }
+
+.marginesotto2 {
+  margin-bottom: 10px;
+}
+
+.marginesotto3 {
+  margin-bottom: 20px;
+}
+
 
 .inlineblock {
   display: inline-block;
@@ -106,3 +115,4 @@ main {
 .blu {
   background-color: #14aaf5;
 }
+
