@@ -31,7 +31,7 @@ header {
 
 /* centratura parte centrale */
 main {
-margin: 0% 0 50px 40%;
+margin: 0% 0 50px 20%;
 }
 
 /* si applica a tutti i tasti */
@@ -116,3 +116,21 @@ margin: 0% 0 50px 40%;
   background-color: #14aaf5;
 }
 
+.viola {
+  background-color:#ab5de6 ;
+}
+
+.verde {
+  background-color:#2cc6ab ;
+}
+
+.arancio {
+  background-color:#ff9b00 ;
+}
+
+.rosa {
+  background-color:#ec4a9d ;
+}
+
+.verde2 { background-color:#a3d116 ;
+}
