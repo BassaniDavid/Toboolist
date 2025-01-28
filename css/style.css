@@ -3,6 +3,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
-  body {background-color: aqua;}
+.logo {
+  margin: 10px 0px 0px 20px ;
+  background-image: url(../img/Logo.png);
+  background-size: contain;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+
+}
+
+h1 {
+  display: inline-block;
+  height: 60px;
+  font-size: 40px;
+  position: absolute;
+  /*allineamento titolo al logo. più o meno funziona, sicuramente non è la soluzione giusta. TORNA PIù TARDI */
+  top: 9px;
+}
+
