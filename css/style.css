@@ -1,18 +1,16 @@
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .logo {
-  margin: 10px 0px 0px 20px ;
+  margin: 10px 0px 0px 20px;
   background-image: url(../img/Logo.png);
   background-size: contain;
   display: inline-block;
   height: 50px;
   width: 50px;
-
 }
 
 /* titolo */
@@ -20,8 +18,7 @@ h1 {
   height: 60px;
   font-size: 40px;
   position: absolute;
-  /*allineamento titolo al logo. più o meno funziona, sicuramente non è la soluzione giusta. TORNA PIù TARDI */
-  top: 9px;
+  margin-top: 10px;
 }
 
 /* spaziatura sotto il titolo */
@@ -31,18 +28,19 @@ header {
 
 /* centratura parte centrale */
 main {
-margin: 0% 0 50px 20%;
+  margin: 0 0 50px 20%;
 }
 
 /* si applica a tutti i tasti */
 .tasto {
   text-align: center;
-  height: 25px;
+  line-height: 25px;
+  padding: 5px;
 }
 
 /* si applica solo ai tasti superiori */
 .add {
-  border: 1px; 
+  border: 1px;
   border-radius: 5px;
 }
 
@@ -53,7 +51,7 @@ margin: 0% 0 50px 20%;
 }
 
 .section {
-  border-style: solid;;
+  border-style: solid;
   width: 85px;
   border-color: #c4cbd0;
   color: #c4cbd0;
@@ -71,7 +69,6 @@ margin: 0% 0 50px 20%;
 .marginesotto3 {
   margin-bottom: 20px;
 }
-
 
 .inlineblock {
   display: inline-block;
@@ -103,13 +100,13 @@ margin: 0% 0 50px 20%;
 }
 
 .tasti {
-  height: 22px;
   color: white;
   border-radius: 8px;
 }
 
 .spaziotesto {
-  margin: 10px;
+  display: inline-block;
+  padding: 5px 10px;
 }
 
 .blu {
@@ -117,20 +114,21 @@ margin: 0% 0 50px 20%;
 }
 
 .viola {
-  background-color:#ab5de6 ;
+  background-color: #ab5de6;
 }
 
 .verde {
-  background-color:#2cc6ab ;
+  background-color: #2cc6ab;
 }
 
 .arancio {
-  background-color:#ff9b00 ;
+  background-color: #ff9b00;
 }
 
 .rosa {
-  background-color:#ec4a9d ;
+  background-color: #ec4a9d;
 }
 
-.verde2 { background-color:#a3d116 ;
+.verde2 {
+  background-color: #a3d116;
 }
